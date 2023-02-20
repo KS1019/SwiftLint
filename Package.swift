@@ -30,7 +30,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMinor(from: "1.2.0")),
-        .package(url: "https://github.com/apple/swift-syntax.git", revision: "6e3dfb332553ad1462f0a3d45b4d91e349ce4013"),
+        .package(url: "https://github.com/apple/swift-syntax.git", revision: "8eb538d27b8261594fcf46e317ccc0a03ccc4895"),
         .package(url: "https://github.com/jpsim/SourceKitten.git", .upToNextMinor(from: "0.33.1")),
         .package(url: "https://github.com/jpsim/Yams.git", from: "5.0.1"),
         .package(url: "https://github.com/scottrhoyt/SwiftyTextTable.git", from: "0.9.0"),
